@@ -1,0 +1,109 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* =============== */
+* {
+  box-sizing: border-box; }
+
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  font-family: "Lato", sans-serif; }
+  @media (max-width: 800px) {
+    body {
+      font-size: 10px;
+      line-height: 12px; } }
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  margin: 15px 0; }
+  h1 small {
+    font-weight: 300;
+    font-size: .6em; }
+  @media (max-width: 800px) {
+    h1 {
+      font-size: 20px;
+      line-height: 20px; } }
+
+.sortable-table {
+  max-width: 900px;
+  margin: 30px auto;
+  color: #fff; }
+  .sortable-table tr {
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom: 1px #fff solid; }
+  .sortable-table td {
+    width: 20%;
+    text-align: center;
+    font-weight: 300;
+    padding: 10px 0; }
+  .sortable-table th {
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.6);
+    position: relative; }
+    .sortable-table th:hover {
+      background: rgba(0, 0, 0, 0.8);
+      cursor: pointer; }
+    .sortable-table th.ascending, .sortable-table th.descending {
+      background: rgba(0, 0, 0, 0.8); }
+    .sortable-table th.ascending:after {
+      content: "\f106";
+      font-family: FontAwesome;
+      position: absolute;
+      right: 10px; }
+    .sortable-table th.descending:after {
+      content: "\f107";
+      font-family: FontAwesome;
+      position: absolute;
+      right: 10px; }
+
+/*# sourceMappingURL=style.css.map */

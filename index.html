@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Sortable table</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Sortable table - jQuery plugin<br /><small>click on table header to sort column</h1>
+  <table class="sortable-table">
+    <thead>
+      <tr>
+        <th data-compare="number">Rank</th>
+        <th data-compare="number">Year</th>
+        <th data-compare="artist">Artist</th>
+        <th data-compare="string">Song</th>
+        <th data-compare="string">Album</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>1965</td>
+        <td>Bob Dylan</td>
+        <td>Like a Rolling Stone</td>
+        <td>Highway 61 Revisited</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1965</td>
+        <td>The Rolling Stones</td>
+        <td>(I Can't Get No) Satisfaction</td>
+        <td>Out of Our Heads</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1971</td>
+        <td>John Lennon</td>
+        <td>Imagine</td>
+        <td>Imagine</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>1971</td>
+        <td>Marvin Gaye</td>
+        <td>What's Going On</td>
+        <td>What's Going On</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>1967</td>
+        <td>Aretha Franklin</td>
+        <td>Respect</td>
+        <td>I Never Loved a Man the Way I Love You</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>1966</td>
+        <td>The Beach Boys</td>
+        <td>Good Vibrations</td>
+        <td>Smile</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>1958</td>
+        <td>Chuck Berry</td>
+        <td>Johnny B. Goode</td>
+        <td>The Great Twenty-Eight</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>1968</td>
+        <td>The Beatles</td>
+        <td>Hey Jude</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>1991</td>
+        <td>Nirvana</td>
+        <td>Smells Like Teen Spirit</td>
+        <td>Nevermind</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>1959</td>
+        <td>Ray Charles</td>
+        <td>What'd I Say</td>
+        <td>The Birth of Soul: The Complete Atlantic Rhythm and Blues Recordings 1952-1959</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>1965</td>
+        <td>The Who</td>
+        <td>My Generation</td>
+        <td>My Generation</td>
+      </tr>
+      <tr>
+        <td>12</td>
+        <td>1964</td>
+        <td>Sam Cooke</td>
+        <td>A Change Is Gonna Come</td>
+        <td>Portrait of a Legend 1951-1964</td>
+      </tr>
+      <tr>
+        <td>13</td>
+        <td>1965</td>
+        <td>The Beatles</td>
+        <td>Yesterday</td>
+        <td>Help!</td>
+      </tr>
+      <tr>
+        <td>14</td>
+        <td>1963</td>
+        <td>Bob Dylan</td>
+        <td>Blowin' in the Wind</td>
+        <td>The Freewheelin' Bob Dylan</td>
+      </tr>
+      <tr>
+        <td>15</td>
+        <td>1980</td>
+        <td>The Clash</td>
+        <td>London Calling</td>
+        <td>London Calling</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>1963</td>
+        <td>The Beatles</td>
+        <td>I Want to Hold Your Hand</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>1967</td>
+        <td>The Jimi Hendrix Experience</td>
+        <td>Purple Haze</td>
+        <td>Are You Experienced</td>
+      </tr>
+      <tr>
+        <td>18</td>
+        <td>1955</td>
+        <td>Chuck Berry</td>
+        <td>Maybellene</td>
+        <td>The Great Twenty-Eight</td>
+      </tr>
+      <tr>
+        <td>19</td>
+        <td>1956</td>
+        <td>Elvis Presley</td>
+        <td>Hound Dog</td>
+        <td>Elvis Presley</td>
+      </tr>
+      <tr>
+        <td>20</td>
+        <td>1970</td>
+        <td>The Beatles</td>
+        <td>Let It Be</td>
+        <td>Let It Be</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
